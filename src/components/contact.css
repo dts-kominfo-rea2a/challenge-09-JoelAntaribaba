@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+main > section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(249, 211, 153);
+  border-radius: 1em;
+  padding: 1em;
+  gap: 1em;
+}
+
+.kiri {
+  flex-basis: 30%;
+}
+
+.kiri > img {
+  height: 5em;
+  border-radius: 50%;
+}
+
+.kanan {
+  flex-basis: 70%;
+  line-height: 0.5em;
+}
