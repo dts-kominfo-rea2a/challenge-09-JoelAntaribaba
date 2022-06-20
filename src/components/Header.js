@@ -1,12 +1,12 @@
 // Kalian bisa menambahkan CSS di src/components/Header.css
 import React from "react";
 
-const Header = ({ text1, text2, text3 }) => {
+const Header = () => {
   return (
     <header>
-      <h1>{text1}</h1>
-      <h5>{text2}</h5>
-      <p style={{ color: "orange" }}>{text3}</p>
+      <h1>Call a Friend</h1>
+      <h5>your friendly contact app</h5>
+      <p style={{ color: "orange" }}>**************************************************</p>
     </header>
   );
 };

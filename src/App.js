@@ -37,7 +37,7 @@ const App = () => {
   // Masukkan Header dan Contact ke dalam div App
   return (
     <div className="App">
-      <Header text1="Call a Friend" text2="your friendly contact app" text3="**************************************************" />
+      <Header />
       <Contact name={getName(contacts)} phone={getPhone(contacts)} email={getEmail(contacts)} photo={getPhoto(contacts)} />
     </div>
   );
