@@ -11,7 +11,8 @@ main > section {
   background-color: rgb(249, 211, 153);
   border-radius: 1em;
   padding: 1em;
-  gap: 1em;
+  width: 15rem;
+  height: 5rem;
 }
 
 .kiri {
@@ -25,5 +26,5 @@ main > section {
 
 .kanan {
   flex-basis: 70%;
-  line-height: 0.5em;
+  line-height: 0.2em;
 }
