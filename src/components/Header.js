@@ -4,7 +4,7 @@ import React from "react";
 const Header = ({ text1, text2, text3 }) => {
   return (
     <header>
-      <h1>{text1}</h1>
+      <title>{text1}</title>
       <h5>{text2}</h5>
       <p style={{ color: "orange" }}>{text3}</p>
     </header>
